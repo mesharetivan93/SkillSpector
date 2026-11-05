@@ -1,0 +1,28 @@
+{
+  "name": "freellmapi",
+  "version": "1.1.0",
+  "description": "FreeLLMAPI gateway monitor for OmniRoute: tracks FreeLLMAPI readiness (logging state changes) and annotates requests for free-routed models.",
+  "author": "MesharetIvan",
+  "license": "MIT",
+  "main": "index.mjs",
+  "source": "local",
+  "tags": [
+    "llm",
+    "free",
+    "gateway",
+    "routing"
+  ],
+  "requires": {
+    "permissions": [
+      "network"
+    ]
+  },
+  "hooks": {
+    "onRequest": true,
+    "onResponse": true,
+    "onActivate": true,
+    "onDeactivate": true
+  },
+  "enabledByDefault": true,
+  "integrity": "sha256-lZFxlpe+B92SLxO5AUvR0Jeg6uuuwsLH6UzL784JB1E="
+}

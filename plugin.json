@@ -1,0 +1,12 @@
+{
+  "name": "skillspector",
+  "version": "1.0.0",
+  "description": "Custom plugin for skill tracking and analytics",
+  "main": "index.mjs",
+  "hooks": {
+    "onRequest": true
+  },
+  "requires": {
+    "permissions": ["network"]
+  }
+}
